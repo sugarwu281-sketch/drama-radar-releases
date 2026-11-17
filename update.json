@@ -1,0 +1,14 @@
+{
+  "version": "1.5.0",
+  "released_at": "2026-11-17T11:52:45Z",
+  "notes": "题材雷达推荐方向接入红果短剧；新增自动更新（检查 → 下载 → sha256 校验 → 安装）。",
+  "sha256": "dfa43ca26946bc39e7bbefbcfb0f49da0cf20107271882ca34ca1a003774d69a",
+  "size": 104947251,
+  "asset_name": "drama-radar-setup-1.5.0.exe",
+  "urls": [
+    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.5.0/drama-radar-setup-1.5.0.exe",
+    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.5.0/drama-radar-setup-1.5.0.exe",
+    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.5.0/drama-radar-setup-1.5.0.exe",
+    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.5.0/drama-radar-setup-1.5.0.exe"
+  ]
+}
