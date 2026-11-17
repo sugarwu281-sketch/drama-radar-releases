@@ -1,9 +1,9 @@
 {
   "version": "1.5.0",
-  "released_at": "2026-11-17T12:05:18Z",
+  "released_at": "2026-11-17T12:13:47Z",
   "notes": "题材雷达推荐方向接入红果短剧；新增自动更新（检查 → 下载 → sha256 校验 → 安装）。",
-  "sha256": "1de4ab8ce842418d44657119870ba795074a79f2ad6ffe6315d04beac7622a8c",
-  "size": 104947416,
+  "sha256": "dc647afbe26e862b586a065f1bdd4cbde6d1075763590ade60689cd22d46e225",
+  "size": 104948109,
   "asset_name": "drama-radar-setup-1.5.0.exe",
   "urls": [
     "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.5.0/drama-radar-setup-1.5.0.exe",
