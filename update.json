@@ -1,14 +1,14 @@
 {
-  "version": "1.6.1",
-  "released_at": "2026-11-19T04:54:22Z",
-  "notes": "v1.6.1：修正创作者中心的题材榜 —— 补上漏掉的「名次变化」列，指标（热度值）排到标题后面，宽屏不用横向滚就能看到；页头描述里的 markdown 符号也去掉了。v1.6.0 已发布创作者中心数据源（题材榜/作品榜/IP榜，带封面图，条目可点开看详情，看板补齐 9 页分析）。",
-  "sha256": "be4dc62d69962009347ed6aefa41bfb8e6dc04d68a5ee75e8298ea81cacbc29c",
-  "size": 105227775,
-  "asset_name": "drama-radar-setup-1.6.1.exe",
+  "version": "1.7.0",
+  "released_at": "2026-11-19T05:58:44Z",
+  "notes": "v1.7.0：新增本地 SQLite 索引库 + 看板「历史检索」页 —— 按剧名/题材/榜/日期区间翻攒下来的历史，点一条看逐日曲线和每天的名次。索引是从每天的快照算出来的（删了随时重建），放在数据目录外面，不进安装包。",
+  "sha256": "752726177de0504b235625346dde89f7a3a7a628f350738b9dc416c32aa9e826",
+  "size": 105984772,
+  "asset_name": "drama-radar-setup-1.7.0.exe",
   "urls": [
-    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.6.1/drama-radar-setup-1.6.1.exe",
-    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.6.1/drama-radar-setup-1.6.1.exe",
-    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.6.1/drama-radar-setup-1.6.1.exe",
-    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.6.1/drama-radar-setup-1.6.1.exe"
+    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.0/drama-radar-setup-1.7.0.exe",
+    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.0/drama-radar-setup-1.7.0.exe",
+    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.0/drama-radar-setup-1.7.0.exe",
+    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.0/drama-radar-setup-1.7.0.exe"
   ]
 }
