@@ -1,14 +1,14 @@
 {
-  "version": "1.7.2",
-  "released_at": "2026-11-19T07:12:47Z",
-  "notes": "v1.7.2：登录状态现在自己会更新 —— 程序启动时无头跑一次登录检查（不弹窗口，十几秒），之后每天验一次。v1.7.1 里「当天快照已存在」时采集会直接跳过，登录状态就永远没被验证过，界面一直显示「待登录」。另外修掉浏览器调试端口随机撞上系统保留段（9549-9648）导致起不来的老问题。",
-  "sha256": "36c39fd3ab0c28b1729102b2455d774a7a9103df9a4ae4e94ff9e105a9a0564c",
-  "size": 105992648,
-  "asset_name": "drama-radar-setup-1.7.2.exe",
+  "version": "1.7.3",
+  "released_at": "2026-11-19T07:43:48Z",
+  "notes": "v1.7.3 修正：自动更新下载完成后能真的把安装包拉起来（之前报「Windows 找不到 '\\\\' 文件」，安装包根本没启动）；下载窗口不再显示安装包地址，只显示文件名。",
+  "sha256": "ded18755e2f4153c508ae0849ada366683ca5392fbeca555b42d866d401b84c1",
+  "size": 105993263,
+  "asset_name": "drama-radar-setup-1.7.3.exe",
   "urls": [
-    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.2/drama-radar-setup-1.7.2.exe",
-    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.2/drama-radar-setup-1.7.2.exe",
-    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.2/drama-radar-setup-1.7.2.exe",
-    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.2/drama-radar-setup-1.7.2.exe"
+    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.3/drama-radar-setup-1.7.3.exe",
+    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.3/drama-radar-setup-1.7.3.exe",
+    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.3/drama-radar-setup-1.7.3.exe",
+    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.3/drama-radar-setup-1.7.3.exe"
   ]
 }
