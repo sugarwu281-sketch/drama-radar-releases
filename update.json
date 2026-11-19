@@ -1,14 +1,14 @@
 {
-  "version": "1.7.1",
-  "released_at": "2026-11-19T06:39:54Z",
-  "notes": "v1.7.1：创作者中心的登录提醒 —— 状态条上显示「待登录 / 需要登录 / 已登录」，点「去登录」直接打开 shortdramas.com 的登录页，登录完自动采集；登录状态记在磁盘上，重启还在。另外去掉了各页面顶部那段解释性的长文字。",
-  "sha256": "f38c9c0b3b380ac0de0120516b0a92cfa33e9036f6465be7634249f74e973fb0",
-  "size": 105989201,
-  "asset_name": "drama-radar-setup-1.7.1.exe",
+  "version": "1.7.2",
+  "released_at": "2026-11-19T07:12:47Z",
+  "notes": "v1.7.2：登录状态现在自己会更新 —— 程序启动时无头跑一次登录检查（不弹窗口，十几秒），之后每天验一次。v1.7.1 里「当天快照已存在」时采集会直接跳过，登录状态就永远没被验证过，界面一直显示「待登录」。另外修掉浏览器调试端口随机撞上系统保留段（9549-9648）导致起不来的老问题。",
+  "sha256": "36c39fd3ab0c28b1729102b2455d774a7a9103df9a4ae4e94ff9e105a9a0564c",
+  "size": 105992648,
+  "asset_name": "drama-radar-setup-1.7.2.exe",
   "urls": [
-    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.1/drama-radar-setup-1.7.1.exe",
-    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.1/drama-radar-setup-1.7.1.exe",
-    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.1/drama-radar-setup-1.7.1.exe",
-    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.1/drama-radar-setup-1.7.1.exe"
+    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.2/drama-radar-setup-1.7.2.exe",
+    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.2/drama-radar-setup-1.7.2.exe",
+    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.2/drama-radar-setup-1.7.2.exe",
+    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.2/drama-radar-setup-1.7.2.exe"
   ]
 }
