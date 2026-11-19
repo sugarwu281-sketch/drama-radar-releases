@@ -1,14 +1,14 @@
 {
-  "version": "1.7.3",
-  "released_at": "2026-11-19T07:43:48Z",
-  "notes": "v1.7.3 修正：自动更新下载完成后能真的把安装包拉起来（之前报「Windows 找不到 '\\\\' 文件」，安装包根本没启动）；下载窗口不再显示安装包地址，只显示文件名。",
-  "sha256": "ded18755e2f4153c508ae0849ada366683ca5392fbeca555b42d866d401b84c1",
-  "size": 105993263,
-  "asset_name": "drama-radar-setup-1.7.3.exe",
+  "version": "1.7.4",
+  "released_at": "2026-11-19T08:16:06Z",
+  "notes": "v1.7.4 修正：浅色主题下顶栏的数据源、榜单页的题材筛选两个下拉框黑乎乎一片看不清（下拉框底色被写死成深色，浅色主题下又是深色字）。现在下拉框配色跟着主题走，深浅两套各一份。",
+  "sha256": "4dd90be6dbe1ecdcc9a989774765736f48570efafde19b7b966c791d5e10e271",
+  "size": 105995040,
+  "asset_name": "drama-radar-setup-1.7.4.exe",
   "urls": [
-    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.3/drama-radar-setup-1.7.3.exe",
-    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.3/drama-radar-setup-1.7.3.exe",
-    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.3/drama-radar-setup-1.7.3.exe",
-    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.3/drama-radar-setup-1.7.3.exe"
+    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.4/drama-radar-setup-1.7.4.exe",
+    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.4/drama-radar-setup-1.7.4.exe",
+    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.4/drama-radar-setup-1.7.4.exe",
+    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.4/drama-radar-setup-1.7.4.exe"
   ]
 }
