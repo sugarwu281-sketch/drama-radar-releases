@@ -1,14 +1,14 @@
 {
-  "version": "1.5.0",
-  "released_at": "2026-11-17T12:44:37Z",
-  "notes": "题材雷达推荐方向接入红果短剧；新增自动更新（左侧栏「检查更新」按钮 → 下载 → sha256 校验 → 安装）。",
-  "sha256": "2494fdc0856d2d5a49d6655f7c02b915d37619b3f09041b854ec00f275973059",
-  "size": 104949957,
-  "asset_name": "drama-radar-setup-1.5.0.exe",
+  "version": "1.6.0",
+  "released_at": "2026-11-19T04:27:34Z",
+  "notes": "新增创作者中心数据源（题材榜/作品榜/IP榜，带封面图，条目可点开看详情，看板补齐 9 页分析）；修掉跨榜同 id 覆盖、评分取不到、分析模块漏 import 三个问题",
+  "sha256": "cb765fae62a948480983ac483547b853c667f0d66da5d5faf1a7469e60283e52",
+  "size": 105224796,
+  "asset_name": "drama-radar-setup-1.6.0.exe",
   "urls": [
-    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.5.0/drama-radar-setup-1.5.0.exe",
-    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.5.0/drama-radar-setup-1.5.0.exe",
-    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.5.0/drama-radar-setup-1.5.0.exe",
-    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.5.0/drama-radar-setup-1.5.0.exe"
+    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.6.0/drama-radar-setup-1.6.0.exe",
+    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.6.0/drama-radar-setup-1.6.0.exe",
+    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.6.0/drama-radar-setup-1.6.0.exe",
+    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.6.0/drama-radar-setup-1.6.0.exe"
   ]
 }
