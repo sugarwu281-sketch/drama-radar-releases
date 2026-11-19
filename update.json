@@ -1,14 +1,14 @@
 {
-  "version": "1.7.5",
-  "released_at": "2026-11-19T08:56:13Z",
-  "notes": "v1.7.5：① 自动更新装新版本现在能覆盖现在这份（或先卸载旧版再装），安装位置可以自己选，安装向导的「安装位置」页会预填你当前程序所在的目录；② 装这个程序不再需要管理员权限，不会再弹「是否允许此应用更改设备」；③ 总览页顶部那段说明文字去掉了。",
-  "sha256": "a1591983b216e54954b03f5097c1b3e4db1e2148ff6f3c99424550707a119f29",
-  "size": 105993650,
-  "asset_name": "drama-radar-setup-1.7.5.exe",
+  "version": "1.7.6",
+  "released_at": "2026-11-19T10:54:30Z",
+  "notes": "v1.7.6 重做界面：把仪表盘改成榜单。总览页最上面是今日榜首（朱砂名次牌 + 楷体剧名 + 等宽数字），四张一样的指标卡改成一条报表抬头，表格名次升级成榜位轨（前三名带朱砂竖线）；配色重做为冷墨黑/冷灰纸 + 丹朱砂，去掉玻璃拟态和径向光晕。",
+  "sha256": "fc87f48e03a8de66dbe26d1d0177eee8c6188bb92f16607e25919092c28bb4ee",
+  "size": 105996757,
+  "asset_name": "drama-radar-setup-1.7.6.exe",
   "urls": [
-    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.5/drama-radar-setup-1.7.5.exe",
-    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.5/drama-radar-setup-1.7.5.exe",
-    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.5/drama-radar-setup-1.7.5.exe",
-    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.5/drama-radar-setup-1.7.5.exe"
+    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.6/drama-radar-setup-1.7.6.exe",
+    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.6/drama-radar-setup-1.7.6.exe",
+    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.6/drama-radar-setup-1.7.6.exe",
+    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.6/drama-radar-setup-1.7.6.exe"
   ]
 }
