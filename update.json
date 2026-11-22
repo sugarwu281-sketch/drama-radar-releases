@@ -1,14 +1,14 @@
 {
-  "version": "1.7.8",
-  "released_at": "2026-11-21T08:22:15Z",
-  "notes": "v1.7.8 修正：周期榜的剧名显示成一串数字（41000507094），题材/集数/评分全空。根因两层，都修了 —— 显示层：周榜/月榜拼行时剧名只查当前在榜的剧和剧目目录，从不查历史快照，而掉榜的剧名恰恰只在快照里（快照 items 存完整数据，榜单条目只有 id/rank/heat），现在改成快照→目录→id，题材集数也跟着补；数据层：剧目目录丢过条目 —— 桌面版每次更新程序后启动会把内置种子同步回用户目录，按文件新旧判断，而内置那份的时间戳是打包时间（永远比历史采集时间新），于是用户攒下的累积目录被整个盖回旧版本，实测河马 11-18 的 47 部、11-19 的 50 部剧整批消失，现在改成按条目合并（union），哪边都不丢，已丢的 96 部已从快照重建回来。v1.7.7 的测量仪视觉语言保持不变。",
-  "sha256": "69eb03fe3edba4927e267f27b9909c3707f082c053eb4a894dde23f9afccd348",
-  "size": 106171193,
-  "asset_name": "drama-radar-setup-1.7.8.exe",
+  "version": "1.7.9",
+  "released_at": "2026-11-22T07:09:45Z",
+  "notes": "v1.7.9 修正：开机自启突然失效。根因是注册表里的自启项记的是一条路径，程序搬家（重装到别处）或旧目录被删之后那条路径就失效了，开机时 Windows 照着找、找不到就静默不启动 —— 程序自己完全不知道（它只看开关是开的）。现在每次启动检查一遍：自启项指的地方还在不在、是不是当前这份程序，不对就自动重新指到当前 exe 并记日志。用户自己在托盘里关掉自启的不动。",
+  "sha256": "5faf437a33409fd4117ef29dc7d783fdd48497c8a7a9edb057cecf31b753f28f",
+  "size": 106172514,
+  "asset_name": "drama-radar-setup-1.7.9.exe",
   "urls": [
-    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.8/drama-radar-setup-1.7.8.exe",
-    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.8/drama-radar-setup-1.7.8.exe",
-    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.8/drama-radar-setup-1.7.8.exe",
-    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.8/drama-radar-setup-1.7.8.exe"
+    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.9/drama-radar-setup-1.7.9.exe",
+    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.9/drama-radar-setup-1.7.9.exe",
+    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.9/drama-radar-setup-1.7.9.exe",
+    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.9/drama-radar-setup-1.7.9.exe"
   ]
 }
