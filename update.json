@@ -1,14 +1,14 @@
 {
-  "version": "1.7.10",
-  "released_at": "2026-11-27T04:31:19Z",
-  "notes": "v1.7.10 修掉「每次打开都弹一个 node 控制台黑框」：短剧雷达是 GUI 程序（Electron 壳 + PyInstaller 后端），自己不带控制台，Windows 碰到 node.exe 这种控制台程序就会给它新开一个控制台窗口 —— 启动时的登录检查和每 30 分钟的采集都会拉起 node，所以每次打开应用都弹一次。现在给这三处 node 子进程加了 CREATE_NO_WINDOW，子进程不分配控制台，窗口就不出现了。",
-  "sha256": "30ebcf1cc2c968353676a69ce5ffc22fa0b4548724cbda2299275f7558a942ae",
-  "size": 108073579,
-  "asset_name": "drama-radar-setup-1.7.10.exe",
+  "version": "1.7.11",
+  "released_at": "2026-11-27T12:05:19Z",
+  "notes": "v1.7.11 修掉「在程序里点立即更新会崩成红框」：下载用的写文件流是异步打开的，而错误处理要等 HTTP 响应到了才挂上，文件一打不开错误就没人接 → 未捕获异常 → 主进程崩（用户看到 EPERM ... .exe.part 的红框）。现在错误处理在发请求之前就挂好，失败会在更新窗口里如实显示而不崩；每次下载用独立的 .part 文件名；EPERM/EACCES/EBUSY 会自动重试两次；主进程另加了兜底，未捕获异常弹框说明白而不是闪退。附带 v1.7.10 的修复：每次打开应用不再弹 node 控制台黑框。",
+  "sha256": "b4ee688722defeb1c7c82f0d53c17df3bbba0a9b9cd81b032fac0a88ba807008",
+  "size": 103529678,
+  "asset_name": "drama-radar-setup-1.7.11.exe",
   "urls": [
-    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.10/drama-radar-setup-1.7.10.exe",
-    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.10/drama-radar-setup-1.7.10.exe",
-    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.10/drama-radar-setup-1.7.10.exe",
-    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.10/drama-radar-setup-1.7.10.exe"
+    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.11/drama-radar-setup-1.7.11.exe",
+    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.11/drama-radar-setup-1.7.11.exe",
+    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.11/drama-radar-setup-1.7.11.exe",
+    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.11/drama-radar-setup-1.7.11.exe"
   ]
 }
