@@ -1,14 +1,14 @@
 {
-  "version": "1.7.9",
-  "released_at": "2026-11-22T08:29:22Z",
-  "notes": "v1.7.9 两处修正：一、开机自启突然失效 —— 注册表里的自启项记的是一条路径，程序搬家或旧目录被删之后那条路径就失效了，开机时 Windows 找不到就静默不启动，而程序自己完全不知道。现在每次启动检查一遍，自启项指的地方不在或不是当前这份程序，就自动重新指到当前 exe 并记日志；用户自己在托盘里关掉自启的不动。二、更新窗口换了配色 —— 原来是旧版的深绿底 + 橙色药丸进度条，跟主界面不是一个世界；现在跟着主界面走：冷墨黑底 + 骨白字 + 丹朱砂主色 + 铜金次色，进度条改成细的纯色/分段信号条，日志区等宽字体，底下铺测量网格，窗口底色也一并对齐（不然边缘会闪旧颜色）。",
-  "sha256": "88653511d5fa68d83e5df455c765e4db5daec31d0ac2d736b527c6e8da335aea",
-  "size": 106172870,
-  "asset_name": "drama-radar-setup-1.7.9.exe",
+  "version": "1.7.10",
+  "released_at": "2026-11-27T04:31:19Z",
+  "notes": "v1.7.10 修掉「每次打开都弹一个 node 控制台黑框」：短剧雷达是 GUI 程序（Electron 壳 + PyInstaller 后端），自己不带控制台，Windows 碰到 node.exe 这种控制台程序就会给它新开一个控制台窗口 —— 启动时的登录检查和每 30 分钟的采集都会拉起 node，所以每次打开应用都弹一次。现在给这三处 node 子进程加了 CREATE_NO_WINDOW，子进程不分配控制台，窗口就不出现了。",
+  "sha256": "30ebcf1cc2c968353676a69ce5ffc22fa0b4548724cbda2299275f7558a942ae",
+  "size": 108073579,
+  "asset_name": "drama-radar-setup-1.7.10.exe",
   "urls": [
-    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.9/drama-radar-setup-1.7.9.exe",
-    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.9/drama-radar-setup-1.7.9.exe",
-    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.9/drama-radar-setup-1.7.9.exe",
-    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.9/drama-radar-setup-1.7.9.exe"
+    "https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.10/drama-radar-setup-1.7.10.exe",
+    "https://gh-proxy.com/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.10/drama-radar-setup-1.7.10.exe",
+    "https://ghfast.top/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.10/drama-radar-setup-1.7.10.exe",
+    "https://ghproxy.net/https://github.com/sugarwu281-sketch/drama-radar-releases/releases/download/v1.7.10/drama-radar-setup-1.7.10.exe"
   ]
 }
